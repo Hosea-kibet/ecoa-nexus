@@ -1,0 +1,45 @@
+.inputbar{
+    width: 590px;
+    height: 54px;
+    left: 365px;
+    top: 303px;
+    background: rgba(0, 0, 41, 0.07);
+    border-radius: 5px;
+    
+    }
+    
+    .person{
+        color: black;
+    }
+    
+    
+    .customeractive {
+        display: flex;
+        justify-content: center;
+        padding: 2px;
+    
+        width: auto;
+        height: 24px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.22);
+    }
+
+
+    .topline {
+        width: 118px;
+        height: 1px;
+        left: 364px;
+        top: 185px;
+        background: #F58426;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+    
+    }
+
+    .status{
+        color: #04C818;
+    }
+    

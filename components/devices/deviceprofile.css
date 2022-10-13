@@ -1,0 +1,77 @@
+.dvcmngmt {
+    display: flex;
+    flex-direction: column;
+}
+
+.dvcmngmttitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #F58426;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    margin-top: 70px;
+}
+
+.aschist {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #5F6062;
+    margin-left: 0px;
+    margin-bottom: 9px;
+}
+
+.dusage {
+    display: flex;
+    flex-direction: column;
+}
+
+.dusagetitle {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 7;
+}
+
+.dusaget {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    
+   
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #5F6062;
+}
+
+.dusageecoa {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+   
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 3px;
+   
+}
+
+.dusagewidgets {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

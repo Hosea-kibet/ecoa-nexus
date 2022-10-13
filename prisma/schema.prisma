@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model raw_transaction {
+  id                     BigInt    @id @default(autoincrement())
+  loan_id                BigInt
+  TransactionId          String    @db.VarChar(255)
+  PaidByName             String?   @db.VarChar(255)
+  PaidByAccount          String?   @db.VarChar(255)
+  Channel                String    @db.VarChar(255)
+  RawPayloadReceived     String?
+  BilRefNumber           String?   @db.VarChar(255)
+  created_at             DateTime? @db.Timestamp(6)
+  updated_at             DateTime? @db.Timestamp(6)
+  PaidAmountCurrentyCode String?   @db.VarChar(100)
+  PaidAmount             Decimal?  @db.Decimal(19, 6)
+  // m_loan                 m_loan    @relation(fields: [loan_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_raw_transaction_loan_id")
+}
